@@ -1,0 +1,95 @@
+[{
+  "_id": {
+    "$oid": "64c285c4222abd26e90dffd7"
+  },
+  "title": "Live Shopping - Barang unik - Stack Extra Box",
+  "thumbnailUrl": "https://i.ytimg.com/vi/i7i8LLsPgs0",
+  "videoUrl": "https://www.youtube.com/shorts/i7i8LLsPgs0",
+  "products": [
+    {
+      "$oid": "64c28738222abd26e90dfff8"
+    },
+    {
+      "$oid": "64c2873e222abd26e90dfffb"
+    },
+    {
+      "$oid": "64c28742222abd26e90dfffe"
+    },
+    {
+      "$oid": "64c28744222abd26e90e0001"
+    },
+    {
+      "$oid": "64c28745222abd26e90e0004"
+    }
+  ],
+  "comments": [
+    {
+      "$oid": "64c2868b222abd26e90dffe8"
+    },
+    {
+      "$oid": "64c2869c222abd26e90dffeb"
+    },
+    {
+      "$oid": "64c2869f222abd26e90dffee"
+    },
+    {
+      "$oid": "64c286a1222abd26e90dfff1"
+    }
+  ],
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64c285c8222abd26e90dffd9"
+  },
+  "title": "Live Shopping - Barang unik - Stack Extra Box",
+  "thumbnailUrl": "https://i.ytimg.com/vi/i7i8LLsPgs0",
+  "videoUrl": "https://www.youtube.com/shorts/i7i8LLsPgs0",
+  "products": [],
+  "comments": [],
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64c285ca222abd26e90dffdb"
+  },
+  "title": "Live Shopping - Barang unik - Stack Extra Box",
+  "thumbnailUrl": "https://i.ytimg.com/vi/i7i8LLsPgs0",
+  "videoUrl": "https://www.youtube.com/shorts/i7i8LLsPgs0",
+  "products": [],
+  "comments": [],
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64c285cb222abd26e90dffdd"
+  },
+  "title": "Live Shopping - Barang unik - Stack Extra Box",
+  "thumbnailUrl": "https://i.ytimg.com/vi/i7i8LLsPgs0",
+  "videoUrl": "https://www.youtube.com/shorts/i7i8LLsPgs0",
+  "products": [],
+  "comments": [],
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64c285cd222abd26e90dffdf"
+  },
+  "title": "Live Shopping - Barang unik - Stack Extra Box",
+  "thumbnailUrl": "https://i.ytimg.com/vi/i7i8LLsPgs0",
+  "videoUrl": "https://www.youtube.com/shorts/i7i8LLsPgs0",
+  "products": [],
+  "comments": [],
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64c285f5222abd26e90dffe2"
+  },
+  "title": "Live Shopping - Barang unik - Stack Extra Box",
+  "thumbnailUrl": "https://i.ytimg.com/vi/i7i8LLsPgs0",
+  "videoUrl": "https://www.youtube.com/shorts/i7i8LLsPgs0",
+  "products": [],
+  "comments": [],
+  "__v": 0
+}]
