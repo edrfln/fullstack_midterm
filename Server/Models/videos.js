@@ -3,28 +3,31 @@ const mongoose = require("mongoose");
 const videoSchema = new mongoose.Schema({
   videoID: {
     type: String,
+  },
+  title: {
+    type: String,
     required: true,
   },
   thumbnailUrl: {
     type: String,
     required: true,
   },
-  comments: [commentSchema],
-});
-
-const commentSchema = new mongoose.Schema({
-  comment: {
+  videoUrl: {
     type: String,
     required: true,
   },
-  username: {
-    type: String,
-    required: true,
-  },
-  timestamp: {
-    type: Date,
-    default: Date.now,
-  },
+  products: [
+    {
+      type: mongoose.Schema.Types.ObjectId,
+      ref: "Product",
+    },
+  ],
+  comments: [
+    {
+      type: mongoose.Schema.Types.ObjectId,
+      ref: "Comment",
+    },
+  ],
 });
 
 const Video = mongoose.model("Video", videoSchema);
