@@ -1,9 +1,9 @@
 const express = require("express");
 const mongoose = require("mongoose");
 
-const Video = require("./Models/videos");
-const Comment = require("./Models/comment");
-const Product = require("./Models/product");
+const Video = require("./Server/Models/videos");
+const Comment = require("./Server/Models/comment");
+const Product = require("./Server/Models/product");
 
 const app = express();
 app.use(express.json());
