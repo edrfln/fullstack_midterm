@@ -10,7 +10,7 @@ app.use(express.json());
 
 //connect to mongo
 mongoose
-  .connect("mongodb://127.0.0.1:27017/video-player", {
+  .connect("mongodb+srv://edeniafiliana:417Qn0zNVxSt2OzH@gigihlab.jux4pvq.mongodb.net/video-player", {
     useNewUrlParser: true,
     useUnifiedTopology: true,
   })
@@ -154,7 +154,7 @@ app.post("/videos", async (req, res) => {
   }
 });
 
-const PORT = 3000;
+const PORT = 3001;
 app.listen(PORT, () => {
   console.log(`Server started on port ${PORT}`);
 });
