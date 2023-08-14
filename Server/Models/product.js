@@ -16,6 +16,10 @@ const productSchema = new mongoose.Schema({
     type: String,
     required: true,
   },
+  pic: {
+    type: String,
+    required: true,
+  },
   video: {
     type: mongoose.Schema.Types.ObjectId,
     ref: "Video",
