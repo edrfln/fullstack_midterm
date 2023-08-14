@@ -112,13 +112,14 @@ app.post("/videos/:videoId/comments", async (req, res) => {
 app.post("/videos/:videoId/products", async (req, res) => {
   try {
     const { videoId } = req.params;
-    const { url, title, price } = req.body;
+    const { url, title, price, pic } = req.body;
 
     const product = new Product({
       url: url,
       title: title,
       price: price,
       video: videoId,
+      pic: pic,
     });
 
     await product.save();
