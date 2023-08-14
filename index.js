@@ -5,13 +5,14 @@ const Video = require("./Server/Models/videos");
 const Comment = require("./Server/Models/comment");
 const Product = require("./Server/Models/product");
 const PORT = process.env.PORT || 8081;
-
+const dev_db_url = "mongodb+srv://edeniafiliana:417Qn0zNVxSt2OzH@gigihlab.jux4pvq.mongodb.net/video-player";
+const mongoDB = process.env.MONGODB_URI || dev_db_url;
 const app = express();
 app.use(express.json());
 
 //connect to mongo
 mongoose
-  .connect("mongodb+srv://edeniafiliana:417Qn0zNVxSt2OzH@gigihlab.jux4pvq.mongodb.net/video-player", {
+  .connect(mongoDB, {
     useNewUrlParser: true,
     useUnifiedTopology: true,
   })
