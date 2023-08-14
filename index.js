@@ -118,8 +118,8 @@ app.post("/videos/:videoId/products", async (req, res) => {
       url: url,
       title: title,
       price: price,
-      video: videoId,
       pic: pic,
+      video: videoId,
     });
 
     await product.save();
