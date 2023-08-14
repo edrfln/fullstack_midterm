@@ -8,10 +8,10 @@ const PORT = process.env.PORT || 8081;
 const dev_db_url = "mongodb+srv://edeniafiliana:417Qn0zNVxSt2OzH@gigihlab.jux4pvq.mongodb.net/video-player";
 const mongoDB = process.env.MONGODB_URI || dev_db_url;
 const app = express();
-// const cors = require("cors");
+const cors = require("cors");
 
 app.use(express.json());
-// app.use(cors());
+app.use(cors());
 
 //connect to mongo
 mongoose
